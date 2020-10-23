@@ -23,6 +23,13 @@ namespace Shapes_Practice.Shapes
                 return (Length * Width);
             }
         }
+
+        public Rectangle() : base()
+        {
+            Length = 2;
+            Width = 3;
+        }
+
         public Rectangle( string colour, double length, double width ):base(colour)
         {
             Length = length;

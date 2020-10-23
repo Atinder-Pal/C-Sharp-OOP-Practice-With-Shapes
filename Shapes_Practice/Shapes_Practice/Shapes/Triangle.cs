@@ -6,5 +6,6 @@ namespace Shapes_Practice.Shapes
 {
     class Triangle
     {
+
     }
 }

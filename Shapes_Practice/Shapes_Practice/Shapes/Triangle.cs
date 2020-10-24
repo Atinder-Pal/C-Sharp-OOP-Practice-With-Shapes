@@ -10,20 +10,19 @@ namespace Shapes_Practice.Shapes
         public Double Height { get; set; }
         public override double Perimeter
         {
-            get
-            {
-                return Base * 3;
-            }
+            get => Base * 3;         
         }
 
         public override double Area
         {
-            get
-            {
-                return (Base * Height) / 2;
-            }
+            get => (Base * Height) / 2;          
         }
 
+        public Triangle() : base()
+        {
+            Base = 4;
+            Height = 5;
+        }
         public Triangle( String colour, double triangleBase, double height ):base(colour)
         {
             Base = triangleBase;

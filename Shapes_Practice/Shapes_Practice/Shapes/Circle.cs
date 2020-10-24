@@ -9,25 +9,20 @@ namespace Shapes_Practice.Shapes
         public double Radius { get; set; }
         public double Diameter
         { 
-            get
-            {
-                return Radius * 2;
-            }
+            get => Radius * 2;            
         }
 
         public override double Area
         {
-            get
-            {
-                return Math.PI * Radius * Radius;
-            }
+            get => Math.PI * Radius * Radius;          
         }
         public override double Perimeter
         {
-            get
-            {
-                return Math.PI * Diameter;
-            }
+            get => Math.PI * Diameter;            
+        }
+        public Circle() : base()
+        {
+            Radius = 3;
         }
         public Circle( string colour, double radius ): base( colour )
         {

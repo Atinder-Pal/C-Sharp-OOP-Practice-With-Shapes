@@ -11,17 +11,11 @@ namespace Shapes_Practice.Shapes
 
         public override double Perimeter
         {
-            get
-            {
-                return (2 * Length) + (2 * Width);
-            }
+            get => (2 * Length) + (2 * Width);           
         }
         public override double Area
         {
-            get
-            {
-                return (Length * Width);
-            }
+            get => (Length * Width);           
         }
 
         public Rectangle() : base()

@@ -4,7 +4,8 @@ using System.Text;
 
 namespace Shapes_Practice.Shapes
 {
-    class Triangle: Shape
+    //Illustrating Inheritence
+    class Triangle : Shape
     {
         public Double Base { get; set; }
         public Double Height { get; set; }

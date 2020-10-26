@@ -4,6 +4,7 @@ using System.Text;
 
 namespace Shapes_Practice.Shapes
 {
+    //Illustrating Abstraction
     abstract class Shape
     {
         abstract public double Area { get; }

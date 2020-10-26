@@ -4,6 +4,7 @@ using System.Text;
 
 namespace Shapes_Practice.Shapes
 {
+    //Illustrating Inheritence
     class Rectangle: Shape
     {
         public double Length { get; set; }

@@ -8,6 +8,7 @@ namespace Shapes_Practice
     class Drawing
     {
         private List<Shape> _shapes;
+        //Illustrating Polymorphism
         private List<Shape> Shapes 
         { 
             get

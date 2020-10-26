@@ -4,6 +4,7 @@ using System.Text;
 
 namespace Shapes_Practice.Shapes
 {
+    //Illustrating Inheritence
     class Circle : Shape
     {
         public double Radius { get; set; }

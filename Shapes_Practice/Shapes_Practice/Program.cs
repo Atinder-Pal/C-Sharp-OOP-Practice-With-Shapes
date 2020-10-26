@@ -23,6 +23,7 @@ namespace Shapes_Practice
             //Console.WriteLine(yourRectangle.Area);
             //Console.WriteLine(yourRectangle.Perimeter);
 
+            //Illustrating Encapsulation
             Drawing myDrawing = new Drawing();
             myDrawing.Draw(new Rectangle());
             myDrawing.Draw(new Circle());
